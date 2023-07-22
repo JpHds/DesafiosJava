@@ -14,7 +14,7 @@ public class AbaixoDiagonalSecundaria {
       ArrayList<Double> lista = new ArrayList<>();
       char O = leitor.next().toUpperCase().charAt(0);
       Double[][] G = new Double[12][12];
-      for(int i = 0; i < 12; i++) {
+      for(int i = 1; i < 12; i++) {
         for(int j = 12-i; j < 12; j++) {  
             G[i][j] = random.nextDouble(10);       
             lista.add(G[i][j]);
