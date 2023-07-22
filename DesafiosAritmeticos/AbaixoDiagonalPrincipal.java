@@ -48,5 +48,7 @@ public class AbaixoDiagonalPrincipal {
       } else {
         System.out.println("Impossível realizar a operação se não de soma(S) ou média(M)");
       }
+
+      leitor.close();
   }
 }
