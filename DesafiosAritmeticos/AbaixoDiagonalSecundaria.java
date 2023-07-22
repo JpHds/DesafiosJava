@@ -3,14 +3,12 @@
  * baseado no caracter lido(M ou S).
  * 
  */
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
 public class AbaixoDiagonalSecundaria {
   public static void main(String[] args) {
-      DecimalFormat formatador = new DecimalFormat("#0.0");
       Random random = new Random();
       Scanner leitor = new Scanner(System.in);
       ArrayList<Double> lista = new ArrayList<>();
@@ -36,5 +34,7 @@ public class AbaixoDiagonalSecundaria {
       } else {
         System.out.println("Impossível realizar a operação se não de soma(S) ou média(M)");
       }
+
+      leitor.close();
   }
 }
