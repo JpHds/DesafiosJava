@@ -9,8 +9,8 @@ public class AcimaDiagonalSecundaria {
       ArrayList<Double> lista = new ArrayList<>();
       char O = leitor.next().toUpperCase().charAt(0);
       Double[][] G = new Double[12][12];
-      for(int i = 0; i < 12; i++) {
-        for(int j = 0; j < 12; j++) {  
+      for(int i = 0; i < 11; i++) {
+        for(int j = 0; j < 11-i; j++) {  
             G[i][j] = random.nextDouble(10);       
             lista.add(G[i][j]);
         }
