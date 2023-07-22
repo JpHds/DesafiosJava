@@ -1,3 +1,9 @@
+/*Atividade do bootcamp da DIO, consiste na criação de um código em JAVA para ler um caracter MAIÚSCULO,
+ * e com uma matriz 12x12 calcular e mostrar a soma ou média dos valores acima da sua diagonal secundária 
+ * baseado no caracter lido(M ou S).
+ * 
+ */
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
